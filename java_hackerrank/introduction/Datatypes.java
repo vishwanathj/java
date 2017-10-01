@@ -1,5 +1,6 @@
 /* Refer https://www.hackerrank.com/challenges/java-datatypes*/
 import java.util.*;
+
 public class Datatypes {
     public static void main(String []argh)
     {
@@ -22,11 +23,10 @@ public class Datatypes {
                 if(x>=-Math.pow(2,63) && x<=Math.pow(2,63) - 1)System.out.println("* long");
                 //Complete the code
             }
-            catch(Exception e)
-            {
-                System.out.println(sc.next()+" can't be fitted anywhere.");
+            catch(Exception e) {
+                System.out.println(sc.next() + " can't be fitted anywhere.");
 
-
+            }
         }
     }
 }
